@@ -16,7 +16,12 @@ function countdown() {
     timer.textContent = 'Time Left : ' + secondLeft;
     document.body.appendChild(timer);
 
-    if((secondLeft <= 0) || (score == 3)) {
+    if(secondLeft <= 0)  {
+        secondLeft = 0;
+        timer.textContent = 'Time Left : ' + secondLeft;
+        clearInterval(timerInterval);
+        inputName();
+    } else if (score == 3) {
         clearInterval(timerInterval);
     }
 }, 1000);
