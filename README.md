@@ -16,6 +16,7 @@
 
 7. The quiz link is below.
 
+https://radoll93.github.io/Homework4_Web-APIs/
 
-![Coding Quiz] (./assets/Coding_Quiz.gif)
+![Coding Quiz](./assets/Coding_Quiz.gif)
 
