@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    background-color: indigo;
+    color: white;
+    cursor: grab;
+    border-radius: 10px;
+}
+
+button:hover, 
+li:hover {
+    filter: opacity(70%);
+}
+
+
+li {
+    padding: 5px;
+    width: 50%;
+    list-type: none;
+    margin: 10px auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: grab; 
+}
+
+div {
+    position: absolute;
+    top: 3%;
+    right : 3%;
+}
